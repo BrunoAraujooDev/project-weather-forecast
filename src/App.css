@@ -1,38 +1,75 @@
 .App {
+  height: 100vh;
+  background-color: #01497c;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#form-input{
+  width: 300px;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#botao-procurar{
+  margin: 30px 10px;
+  width: 100px;
+  padding: 5px 10px;
+  background-color: #012a4a;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  box-shadow: 0 5px 5px #000;
+}
+
+#h1-cidade{
+  font-size: 2.5rem;
+}
+
+#h2-tempo-atual{
+  margin: 15px 0px;
+
+}
+
+#p-tempo{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+#p-descricao{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+
+#ol-proximos-dias{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.li-proximos-dias {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  background-color: #012a4a;
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: white;
+}
+
+.div-proximos-dias{
+  display: flex;
+}
+
+.p-vento-temperatura{
+  margin-left: 10px;
 }
