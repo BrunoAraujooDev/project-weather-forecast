@@ -35,11 +35,6 @@ function App() {
 
 	}
 
-	// useEffect( () => {
-
-	// 	setTempo();
-	// }, [tempo])
-
 	
 	
 
