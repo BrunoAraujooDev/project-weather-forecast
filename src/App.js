@@ -15,7 +15,6 @@ function App() {
 	const HandleGetApi = async () => {
 
 		const localidade = busca.split(" ").join("");
-		console.log(localidade);
 
 		const retornoServico = await apiGet(localidade);
 
